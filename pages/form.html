@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hubungi Kami</title>
+    <title>Daftar</title>
     <link rel="shortcut icon" href="../Assets/Icon/favicon.png" />
   </head>
   <body>
@@ -14,6 +14,7 @@
         <a href="hubungi kami.html">Hubungi Kami</a>
         <a href="profil.html">Profil</a>
         <a href="form.html">Daftar</a>
+        <a href="Login.html">Login</a>
       </nav>
     </header>
     <!-- NAVIGATION BAR END -->
@@ -21,66 +22,108 @@
     <!-- FORM START -->
     <main>
       <div>
-        <h1>Form Pendaftaran Studi Independen 2023 - PT Arkatama Multi Solusindo</h1>
+        <h1>
+          Form Pendaftaran Studi Independen 2023 - PT Arkatama Multi Solusindo
+        </h1>
         <form action="#" method="post">
-          <label for="nama">Nama</label><br />
-          <input
-            type="text"
-            id="nama"
-            placeholder="Nama Lengkap"
-            required
-          /><br />
+          <div>
+            <label for="nama">Nama</label><br />
+            <input
+              type="text"
+              id="nama"
+              placeholder="Nama Lengkap"
+              required
+            /><br />
+          </div>
 
-          <label for="email">Email address:</label><br />
-          <input
-            type="email"
-            id="email"
-            placeholder="Email Aktif"
-            required
-          /><br />
+          <div>
+            <label for="email">Email address:</label><br />
+            <input
+              type="email"
+              id="email"
+              placeholder="Email Aktif"
+              required
+            /><br />
+          </div>
 
-          <label for="nomor">No. Telpon</label><br />
-          <input
-            type="number"
-            id="nomor"
-            placeholder="No Telpon Aktif"
-            required
-          />
-          <br />
+          <div>
+            <label for="nomor">No. Telpon</label><br />
+            <input
+              type="number"
+              id="nomor"
+              placeholder="No Telpon Aktif"
+              required
+            />
+            <br />
+          </div>
 
-          <label for="jenis kelamin">jenis kelamin</label> <br />
-          <input type="radio" id="laki-laki" value="Laki-laki" required />
-          <label for="laki-laki">Laki-laki</label> <br />
-          <input type="radio" id="perempuan" value="perempuan" required />
-          <label for="perempuan">Perempuan</label> <br />
-          <input type="" /> <br />
+          <div>
+            <label for="jenis kelamin">jenis kelamin</label> <br />
+            <input type="radio" id="laki-laki" value="Laki-laki" required />
+            <label for="laki-laki">Laki-laki</label> <br />
+            <input type="radio" id="perempuan" value="perempuan" required />
+            <label for="perempuan">Perempuan</label> <br />
+            <input type="" /> <br />
+          </div>
 
-          <label for="prodi">Prodi</label><br />
-          <select id="prodi" name="prodi" required>
-            <option value="Teknik Informatika">Teknik Informatika</option>
-            <option value="Sistem Informasi">Sistem Informasi</option>
-            <option value="Manajemen">Manajemen</option>
-            <option value="Manajemen" selected>Ilmu hukum</option></select
-          ><br />
+          <div>
+            <label for="prodi">Prodi</label><br />
+            <select id="prodi" name="prodi" required>
+              <option value="Teknik Informatika">Teknik Informatika</option>
+              <option value="Sistem Informasi">Sistem Informasi</option>
+              <option value="Manajemen">Manajemen</option>
+              <option value="Manajemen" selected>Ilmu hukum</option></select
+            ><br />
+          </div>
 
-          <label for="hobby">Hobby</label><br>
-          <input type="checkbox" id="ngoding" name="ngoding" value="ngoding">
-          <label for="ngoding">Ngoding</label><br>
+          <div>
+            <label for="hobby">Hobby</label><br />
+            <input
+              type="checkbox"
+              id="ngoding"
+              name="ngoding"
+              value="ngoding"
+            />
+            <label for="ngoding">Ngoding</label><br />
+          </div>
 
-          <input type="checkbox" id="design" name="design" value="design">
-          <label for="design">Design</label> <br>
+          <div>
+            <input type="checkbox" id="design" name="design" value="design" />
+            <label for="design">Design</label> <br />
+          </div>
 
-          <input type="checkbox" id="membaca" name="membaca" value="membaca">
-          <label for="ngoding">Membaca</label><br>
+          <div>
+            <input
+              type="checkbox"
+              id="membaca"
+              name="membaca"
+              value="membaca"
+            />
+            <label for="ngoding">Membaca</label><br />
+          </div>
 
-          <label for="alamat">Alamat</label><br>
-          <textarea name="alamat" id="alamat" cols="30" rows="10" placeholder="Alamat Lengkap"></textarea><br>
+          <div>
+            <label for="alamat">Alamat</label><br />
+            <textarea
+              name="alamat"
+              id="alamat"
+              cols="30"
+              rows="10"
+              placeholder="Alamat Lengkap"
+            ></textarea
+            ><br />
+          </div>
 
-          <label for="profil">Uplod Foto Profil</label><br>
-          <input type="file"> <br>
+          <div>
+            <label for="profil">Uplod Foto Profil</label><br />
+            <input type="file" /> <br />
+          </div>
 
-          <input type="button" value="Daftar">
+          <input type="button" value="Daftar" />
 
+          <p>Sudah mempunya Akun?</p>
+          <label for="login">Silahkan Login</label>
+          <a href="Login.html"> <input type="button" value="Login" /></a>
         </form>
       </div>
     </main>
