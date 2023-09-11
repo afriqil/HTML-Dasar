@@ -10,11 +10,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(../images/Background\ Login.jpg) no-repeat;
+    background: url(../images/Background-Login.webp) no-repeat;
     background-size: cover;
     background-position: center;
-
-
 }
 
 .form-container {
@@ -27,10 +25,6 @@ body {
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
     padding: 40px 30px 40px ;
 }
 
@@ -81,7 +75,6 @@ img {
 .input-remember label input {
     accent-color: #fff;
     margin-right: 3px;
-
 }
 
 .input-remember a {

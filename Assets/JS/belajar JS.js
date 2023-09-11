@@ -1,0 +1,196 @@
+// // alert ('Hello')
+
+// // prompt ('masukkan usia anda')
+
+
+// //  var usia = 17
+// //  const x = 1
+// // let y = 2
+// // const usia = 17
+// // console.log ('hey Afriqil usia kamu adalah ' + usia)
+
+// let usia = prompt ('usia kamu adalah?')
+// alert ('usia anda adalah ' + usia)
+
+let nama = 'afriqil wildan'
+let usia = 21
+let tinggiBadan = 168
+let hobbi = 'ngoding'
+let alamat = 'surabaya'
+let pacar = 2
+
+if (pacar == null) {
+  pacar = 'belum punya'
+} else {
+    pacar = 'udah punya'
+}
+
+// switch (pacar) {
+//   case 1:
+//     pacar = "punya 1 aja"
+//     break;
+//   case 2:
+//     pacar = "punya pacar 2, aku cukup playboy"
+//     break;
+//   default:
+//     pacar = "belum punya pacar"
+//     break;
+// }
+
+alert (
+  `nama saya adalah ${nama} usia masih umur ${usia} dengan tinggi badan ${tinggiBadan} cm. adapun untuk hobbi saya adalah ${hobbi}, dan pacar saya ${pacar}`
+)
+
+// ------------
+
+
+// Contoh 1: Mendeklarasikan variabel dengan nilai boolean
+let benar = true;
+let salah = false;
+
+// Contoh 2: Penggunaan dalam kondisi if-else
+let cuacaCerah = true;
+if (cuacaCerah) {
+  console.log('Saat ini cuaca cerah.');
+} else {
+  console.log('Saat ini tidak ada cuaca cerah.');
+}
+
+// Contoh 3: Penggunaan dalam ekspresi perbandingan
+let angkaSatu = 10;
+let angkaDua = 5;
+let hasilPerbandingan = angkaSatu > angkaDua;
+console.log('Apakah angkaSatu lebih besar daripada angkaDua? ' + hasilPerbandingan);
+
+// Contoh 4: Penggunaan dalam fungsi
+function cekKetersediaan(barang) {
+  if (barang) {
+    console.log('Barang tersedia.');
+  } else {
+    console.log('Barang tidak tersedia.');
+  }
+}
+
+cekKetersediaan(true);  // Output: Barang tersedia.
+cekKetersediaan(false); // Output: Barang tidak tersedia.
+
+// Contoh 5: Operasi logika dengan boolean
+let izinOrangTua = true;
+let izinTeman = true;
+let bolehKeluar = izinOrangTua && izinTeman;
+console.log('Bolehkah saya keluar? ' + bolehKeluar);
+
+// Contoh 6: Negasi boolean
+let statusLogin = false;
+let belumLogin = !statusLogin;
+console.log('Belum login? ' + belumLogin);
+
+
+
+// -----------
+
+// Contoh 1: Mendeklarasikan variabel dengan tipe data string
+let nama = "John Doe";
+let pesanSalam = "Halo, selamat pagi!";
+
+// Contoh 2: Menggabungkan (concatenate) string
+let kataPertama = "Halo";
+let kataKedua = "Dunia";
+let kalimat = kataPertama + " " + kataKedua;
+console.log(kalimat); // Output: "Halo Dunia"
+
+// Contoh 3: Menggunakan tanda kutip tunggal atau ganda
+let jenisKutipan = 'Saya suka "programming".';
+let jenisKutipanLain = "Dia berkata, 'Halo dunia!'";
+let kutipanCampuran = 'Dia bilang, "Ini adalah contoh kutipan campuran."';
+
+// Contoh 4: Menambahkan variabel ke dalam string (interpolasi string)
+let umur = 25;
+let teksUsia = `Usia saya adalah ${umur} tahun.`;
+console.log(teksUsia); // Output: "Usia saya adalah 25 tahun."
+
+// Contoh 5: Mengakses karakter dalam string
+let kata = "JavaScript";
+let karakterPertama = kata[0];
+console.log(karakterPertama); // Output: "J"
+
+// Contoh 6: Menghitung panjang (jumlah karakter) dari string
+let alamatEmail = "contoh@email.com";
+let panjangAlamatEmail = alamatEmail.length;
+console.log("Panjang alamat email: " + panjangAlamatEmail); // Output: "Panjang alamat email: 15"
+
+
+//------------------------
+
+// Contoh 1: Mendeklarasikan variabel dengan tipe data number
+let usia = 30;
+let pi = 3.14;
+
+// Contoh 2: Melakukan operasi aritmetika
+let angkaPertama = 10;
+let angkaKedua = 5;
+let hasilTambah = angkaPertama + angkaKedua;
+let hasilKurang = angkaPertama - angkaKedua;
+let hasilKali = angkaPertama * angkaKedua;
+let hasilBagi = angkaPertama / angkaKedua;
+
+console.log("Hasil Penambahan: " + hasilTambah); // Output: 15
+console.log("Hasil Pengurangan: " + hasilKurang); // Output: 5
+console.log("Hasil Perkalian: " + hasilKali);     // Output: 50
+console.log("Hasil Pembagian: " + hasilBagi);     // Output: 2
+
+// Contoh 3: Menggunakan metode matematis
+let angkaNegatif = -5;
+let angkaDesimal = 2.75;
+
+let nilaiMutlak = Math.abs(angkaNegatif);
+let pangkatDua = Math.pow(angkaKedua, 2);
+let akarKuadrat = Math.sqrt(angkaKedua);
+let pembulatan = Math.round(angkaDesimal);
+
+console.log("Nilai Mutlak: " + nilaiMutlak);   // Output: 5
+console.log("Pangkat Dua: " + pangkatDua);     // Output: 25
+console.log("Akar Kuadrat: " + akarKuadrat); // Output: 2.23606797749979
+console.log("Pembulatan: " + pembulatan);     // Output: 3
+
+
+//-------------------
+
+// Contoh 1: Membuat array dengan berbagai tipe data
+let data = [1, "dua", true, null];
+
+// Contoh 2: Mendeklarasikan array kosong dan menambahkan elemen
+let buah = [];
+buah.push("apel");
+buah.push("pisang");
+buah.push("mangga");
+
+// Contoh 3: Mengakses elemen dalam array
+let pelajaran = ["Matematika", "Bahasa Inggris", "Sains"];
+console.log(pelajaran[0]); // Output: "Matematika"
+console.log(pelajaran[1]); // Output: "Bahasa Inggris"
+
+// Contoh 4: Iterasi (perulangan) melalui array
+let angka = [1, 2, 3, 4, 5];
+for (let i = 0; i < angka.length; i++) {
+  console.log(angka[i]);
+}
+
+// Contoh 5: Menggunakan metode array
+let namaBuah = ["apel", "pisang", "mangga"];
+namaBuah.pop(); // Menghapus elemen terakhir ("mangga")
+namaBuah.push("jeruk"); // Menambahkan elemen baru ("jeruk")
+namaBuah.shift(); // Menghapus elemen pertama ("apel")
+
+// Contoh 6: Menggunakan metode forEach() untuk iterasi
+let buahTambahan = ["kiwi", "melon"];
+buahTambahan.forEach(function (buah) {
+  console.log("Saya suka " + buah);
+});
+
+// Contoh 7: Menggunakan metode filter() untuk pemfilteran data
+let angkaGenap = [2, 4, 6, 8, 10];
+let genap = angkaGenap.filter(function (angka) {
+  return angka % 2 === 0;
+});
+console.log(genap); // Output: [2, 4, 6, 8, 10]
