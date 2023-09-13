@@ -4,6 +4,20 @@
   font-family: 'Poppins', sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 11px;
+    background: #333;
+    border-radius: 2em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #008080ff;
+  }
+
 .navbar {
   height: 60px;
   display: flex;
