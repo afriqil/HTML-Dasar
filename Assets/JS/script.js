@@ -22,4 +22,3 @@ slide[i].style.display ="none"
 }
 slide[slideIndex-1].style.display = "block"
 }
-
