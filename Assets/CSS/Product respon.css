@@ -245,10 +245,6 @@ footer {
       width: 50%;
       height: 50%;
     }
-    .card {
-
-    }
-
     footer {
         flex: 1;
         position: absolute;

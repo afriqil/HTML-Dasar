@@ -139,3 +139,34 @@ img {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+
+
+/* Untuk layar lebih besar dari 992px */
+@media (max-width: 992px) {
+    .container {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .product {
+      justify-content: space-evenly;
+    }
+    .card {
+      width: 30%;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .form-container {
+        flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .form-container {
+        flex-wrap: wrap;
+    }
+  }
+
